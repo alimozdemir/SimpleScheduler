@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.1.0"
+        },    
+        "Quartz": "3.0.0-alpha2",
+        "Quartz.Serialization.Json": "3.0.0-alpha2",
+        "AngleSharp": "0.9.9",
+        "MailKit" : "1.8.1",
+        "Newtonsoft.Json": "9.0.1"
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}
